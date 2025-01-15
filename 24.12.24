@@ -1,0 +1,13 @@
+Сегодня мы начали изучать Python. За этот урок я узнала что делает "input" и "print". А также базовые навыки о том как высвечивать в терминале имена,числа
+И в конце урока мы сделали маленький диалог ниже вы можете увидеть код для диалого:
+
+ age=input ("How old are you?")
+print(name)
+ film=input ("What's your favourite film?")
+ print(name)
+ print( "His name is", name,"He is" ,age,"He is", film,"Harry Potter")
+''
+
+
+
+
