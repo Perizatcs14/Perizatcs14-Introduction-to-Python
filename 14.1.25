@@ -1,0 +1,13 @@
+Сегодня мы прошли оставшиеся типы данных "str" и "bool" 
+Узнала что 'str' используется для текста а "bool" для True/False
+А также в конце чтобы закрепить информацию мы написали диалог с использованием переменной "f" int,float,str снизу код:
+
+money=input("Hi, you came to our Flowers shop, what flower you want")
+cost=50
+print(f"The total cost of this Flower:{cost}")
+rose= int(input("How many rose you want?"))
+
+cost=cost*rose
+payment_method= str(input("how will you pay"))
+print(f" You choose {payment_method}. You need to pay {cost} som")
+print("Thank you! We hope that we will seen you soon!")
