@@ -1,0 +1,13 @@
+На этом уроке я узнала как нужно писать переменные типы данных в Python:
+int — целые числа: 10, -5, 0
+float — числа с плавающей точкой: 3.14, -0.5, 2.0
+str — строки: "Hello", 'Python'
+bool — логические значения: True, False
+но разбирали и работали только с первыми двумя типами и в конце урока составили диалог где нужно было чтобы он сам рассчитывал цену за покупку:
+money= (input("Hello, you need to pay money for educatioun"))
+ cost=65400
+ print(f"The total cost of education is: {cost}")
+ pay= int(input("You have paid 50% of cost, but you need to pay other part. It's 35000"))
+half_cost = cost // 2
+ remaining_amount=cost - pay
+ print(f"You need to pay:{remaining_amount}")
